@@ -100,7 +100,7 @@ void telaApresentacao(void) {
     printf("\n=====================================\n");
     printf("     Apresentação do grupo:\n");
     printf("=====================================\n");
-    printf("Lider do Projeto:  - Site do Sistema(Front-End e Documentação)\n");
+    printf("Lider do Projeto: Kauã dos Santos - Site do Sistema (Front-End) e Documentação\n");
     printf("Graziele Silva de Lima Sampaio - Site do sistema (Front-End)\n");
     printf("Matheus Henrique Silva Nunes - Sistema em C\n");
     printf("Kauan Reis Fernandes - Sistema em C\n");
