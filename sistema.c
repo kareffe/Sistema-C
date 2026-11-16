@@ -79,7 +79,7 @@ int main(void) {
     return 0;
 }
 
-//limpando a tela (poliemnto visual)
+//limpando a tela (polimento visual)
 void limparTela(void) {
     #ifdef _WIN32
         system("cls");
@@ -136,7 +136,7 @@ void cadastrarCliente(void) {
         Cliente novo;
         novo.id = totalClientes + 1;
 
-        printf("\nNome do CLiente: ");
+        printf("\nNome do Cliente: ");
         fgets(novo.nome, sizeof(novo.nome), stdin);
         novo.nome[strcspn(novo.nome, "\n")] = '\0';
 
@@ -315,7 +315,7 @@ void fecharChamado(void) {
     }
 
     if (encontrado) {
-        printf("\nChamado %d fechado com sucessoi!\n", id);
+        printf("\nChamado %d fechado com sucesso!\n", id);
     } else {
         printf("\nChamado não encontrado.\n");
     }
